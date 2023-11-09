@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    border-radius: 20px;
+}
+
+.img {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* position: relative  ;
+    top: 80px; */
+    margin-top: 50px;
+    
+}
+
+body {
+    background-image: url(./Assets/greeting-card-holiday-background-illustration-free-vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.head{
+    text-align: center;
+    /* border: 2px solid red; */
+    position:relative;
+}
+
+.foot{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    align-items:flex-start;
+    margin-top: 30px;
+    /* border: 2px solid rgb(81, 79, 245); */
+}
+
+#iframe{
+    border: 2px solid;
+}
+
+.location{
+    font-size: 50px;
+    border-bottom: 2px solid;
+}
+
+#link, #downloadcard{
+    font-style: italic;
+    font-size: 20px;
+}
+
+#title1{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 35px;
+}
+h3{
+    text-decoration: underline;
+}
+.bring{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+@media (max-width: 576px) {
+    *{
+        flex-wrap: wrap;
+    }
+ }
+@media (min-width: 577px) and (max-width:768px) {
+    *{
+        flex-wrap: wrap;
+        margin: 5px;
+        padding: 5px;
+    }
+ }
+@media (min-width: 768px) {
+    *{
+        flex-wrap: wrap;
+        margin: 5px;
+        padding: 5px;
+    }
+ }
